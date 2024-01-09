@@ -30,7 +30,7 @@ exports.up = async function(knex) {
 
     })
     .createTable('project_resources', table => {
-        table.increments('project_resource_id').primary()
+        table.increments('project_resources_id').primary()
         table.string('project_resource_description', 200)
         table.integer('project_id')
             .unsigned()
