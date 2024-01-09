@@ -14,4 +14,4 @@ async function createResource(resource) {
     return getResourceById(resource_id)
 }
 
-module.exports = { getResources, createResource}
+module.exports = { getResources, createResource }
